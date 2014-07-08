@@ -1,4 +1,6 @@
-emilyjaneextensions
-===================
+hatch
+=====
 
-Hair Extensions Website
+BaseKit's Hatch Template
+
++ Switched to develop branch - 07/06/13
