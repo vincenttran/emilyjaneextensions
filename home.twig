@@ -14,7 +14,19 @@
 </header>
 
 <section>
-    {{widget('responsiveslideshow', 'thisunqiuewidgetname', {'duration':'3', 'transSpeed': '1000', 'transType': 'fade', 'showButtons': true, 'showBullets': false, 'allowPause': true, 'allowLoop': true, 'images':[{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'},{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'},{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'},{'imageHeight':'350', 'imageWidth':'300', 'url':'http://placehold.it/350x300', 'title':'test title', 'description': 'test desc'}]})|raw}}
+    {{widget('responsiveslideshow', 'responsiveslideshow',
+        {'duration':'5',
+            'transSpeed': '1500',
+            'transType': 'fade',
+            'showButtons': true,
+            'showBullets': false,
+            'allowPause': false,
+            'allowLoop': true,
+            'showDescription': true,
+            'showTitle': true,
+            'crop': true
+        })|raw
+    }}
 </section>
 
 <div class="main wrapper clearfix">
@@ -25,14 +37,10 @@
     <div class="wrapper clearfix">
         <div class="responsivecolumns columns-two-50-50">
             <div class="column columns-two-left">
-                {{widget('content', 'footercolumn1content1', {"content":"<h4>Aliquam Sodales</h4>"})|raw}}
-                {{widget('profile', 'footercolumn1profileemail', { 'profileType':'email', 'email':'profile'})|raw}}
-                {{widget('profile', 'footercolumn1profilephone', { 'profileType':'phone', 'phone':'profile'})|raw}}
+                {{widget('profile', 'socialicons', { 'profileType':'socialicons', 'socialicons':'profile'})|raw}}
             </div>
             <div class="column columns-two-right">
-                {{widget('content', 'footercolumn2content1', {"content":"<h4>Lorem Ipsum</h4>"})|raw}}
-                {{widget('profile', 'footercolumn2profiletweet', { 'profileType':'twitter', 'tweet':'profile'})|raw}}
-                {{widget('profile', 'footercolumn2profilecopyright', { 'profileType':'copyright', 'copyright':'profile'})|raw}}
+                {{widget('profile', 'phone', { 'profileType':'phone', 'phone':'profile', 'refreshtime':'1800000'})|raw}}
             </div>
         </div>
     </div>
