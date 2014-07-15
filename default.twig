@@ -21,14 +21,10 @@
     <div class="wrapper clearfix">
         <div class="responsivecolumns columns-two-50-50">
             <div class="column columns-two-left">
-                {{widget('content', 'footercolumn1content1', {"content":"<h4>Aliquam Sodales</h4>"})|raw}}
-                {{widget('profile', 'footercolumn1profileemail', { 'profileType':'email', 'email':'profile'})|raw}}
-                {{widget('profile', 'footercolumn1profilephone', { 'profileType':'phone', 'phone':'profile'})|raw}}
+                {{widget('profile', 'socialicons', { 'profileType':'socialicons', 'socialicons':'profile'})|raw}}
             </div>
             <div class="column columns-two-right">
-                {{widget('content', 'footercolumn2content1', {"content":"<h4>Lorem Ipsum</h4>"})|raw}}
-                {{widget('profile', 'footercolumn2profiletweet', { 'profileType':'twitter', 'tweet':'profile'})|raw}}
-                {{widget('profile', 'footercolumn2profilecopyright', { 'profileType':'copyright', 'copyright':'profile'})|raw}}
+                {{widget('profile', 'phone', { 'profileType':'phone', 'phone':'profile', 'refreshtime':'1800000'})|raw}}
             </div>
         </div>
     </div>

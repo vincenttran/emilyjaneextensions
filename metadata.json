@@ -60,9 +60,9 @@
         }
     },
     "fontSwatch": {
-       "title": "Montserrat",
+       "title": "Quicksand",
         "font1": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "30px",
             "font-weight": "500",
             "line-height": "36px",
@@ -70,7 +70,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "28px",
             "font-weight": "inherit",
             "line-height": "36px",
@@ -78,7 +78,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "22px",
             "font-weight": "inherit",
             "line-height": "28px",
@@ -86,7 +86,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "26px",
@@ -94,7 +94,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "28px",
@@ -102,9 +102,9 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "14px",
-            "font-weight": "200",
+            "font-weight": "300",
             "line-height": "28px",
             "color": "@color-swatch6",
             "color-hover": "darken(@color-swatch6,5%)",
@@ -139,7 +139,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "Montserrat",
+            "font-family": "\"Quickpen\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "34px",
             "font-weight": "400",
             "line-height": "38px",
