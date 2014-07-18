@@ -103,8 +103,8 @@
         },
         "font6": {
             "font-family": "\"Quicksand\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
-            "font-size": "14px",
-            "font-weight": "700",
+            "font-size": "15px",
+            "font-weight": "400",
             "line-height": "28px",
             "color": "@color-swatch6",
             "color-hover": "darken(@color-swatch6,5%)",
