@@ -4,7 +4,8 @@
 	"screenshot":"betastudio.png",
 	"templateType":"standard",
     "pageTypes": [
-        "home"
+        "home",
+        "contact"
     ],
     "tags": {
     "en": ["minimal", "clean", "floral", "modern", "creative", "typography", "simple", "contemporary", "flexible", "florist", "studio", "portfolio", "designer", "sans-serif"],

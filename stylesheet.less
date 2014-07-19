@@ -65,7 +65,7 @@ header.bk-header {
 
 header.bk-header .header-bg {
   width: 100%;
-  padding: 40px 0px 0px;
+  padding: 40px 0px 40px;
 }
 
 .companyheader {
@@ -113,7 +113,7 @@ header.bk-header .header-bg {
    =============================== */
 
 footer.bk-footer {
-  padding: 2em 0 1.5em;
+  padding: 2em 0 1em;
   color: @color-swatch1;
   background-image: image('/images/background-texture.png');
 }
@@ -140,6 +140,10 @@ footer.bk-footer h4 {
 /* ===============================
    STANDARD NAVIGATION
    =============================== */
+
+.navbar {
+  background-color:@color-swatch1;
+}
 
 .widget.navigation {
 }
@@ -1296,246 +1300,6 @@ hr.line.align-right {
   cursor: pointer;
 }
 
-
-
-/* ===============================
-   IPAD WIDTH
-   =============================== */
-
-@media only screen and (max-width: 768px) {
-
-  header.bk-header .header-bg {
-    padding: 62px 0 12px;
-  }
-
-  header.bk-header nav {
-    min-height: 36px;
-    margin-bottom:40px;
-  }
-
-  .widget.companyheader {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .widget.companyheader .company-name {
-    text-align: center;
-  }
-
-  .widget.companyheader .company-name h1 {
-    font-size:bkscale(@font-swatch1-font-size, 0.4)
-  }
-
-  /* NAV */
-
-  .widget.extendednavigation {
-    width: 100%;
-    padding: 0;
-  }
-  .widget .extendednavigation {
-    display: table;
-    *display: block;
-    *float: left;
-    width: 100%;
-  }
-
-  /* NAV ICON */
-
-  .widget .extendednavigation a.pull {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 8px;
-  	right: 0;
-    left: 0;
-  	width: 20px;
-  	height: 20px;
-    margin:0px auto;
-  }
-
-    .widget .extendednavigation a.pull:after {
-    content:"";
-    background: image('/images/nav-icon.png') no-repeat center;
-    background-color: @color-swatch3;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .main .widget .extendednavigation a.pull {
-    display: none;
-  }
-
-  #page-zones__template-widgets__extendednavigation-navigationheader {
-    overflow: visible;
-  }
-
-    /* NAV */
-
-    .widget .extendednavigation ul {
-        width: 100%;
-        display: none;
-        padding: 36px 0 0 0; 
-    }
-
-    .widget .extendednavigation li {
-        width: 100%;
-        padding: 0px;
-        border-bottom: 1px solid darken(@color-swatch2,3%);
-    }
-
-    .widget.extendednavigation ul li.folder {
-      padding: 0;
-      background-position: right center;
-      background-repeat: no-repeat;
-    }
-
-    .widget .extendednavigation li:last-child {
-      border-bottom: 0;
-    }
-
-    .widget.extendednavigation ul li a, .widget.extendednavigation ul li.folder .text {
-        padding: 18px 12px;
-    }
-
-    .widget.extendednavigation ul li > ul {
-        display: none!important;
-    }
-
-    .widget.extendednavigation ul li:hover > ul {
-        display: block!important;
-        width: 100%;
-        padding: 0;
-    }
-
-    .widget.extendednavigation ul li:hover > ul li {
-      border-bottom: 0;
-    }
-
-    .widget.extendednavigation ul li:hover > ul li a {
-        padding: 12px 18px;
-    }
-
-    .widget.extendednavigation ul li:hover > ul li a .text {
-      padding: 6px 26px;
-    }
-
-    .widget.extendednavigation ul li:hover > ul li:first-child {
-
-    }
-
-  /* OTHER */
-
-  section.intro, section.main {
-    padding: 50px 0;
-  }
-
-  section.intro {
-    display: none;
-  }
-
-  /* FEATURE */
-
-   .widget.feature .feature-bgimg {
-    height: 300px; 
-    }
-
-  .widget.feature .content {
-    height: 300px;
-  }
-
-  .widget.feature h2 {
-    line-height: 1;
-    font-size:bkscale(@font-swatch8-font-size, 0.8); 
-  }
-
-  .widget.feature h3 {
-    font-size:bkscale(@font-swatch9-font-size, 0.8); 
-  }
-
-    .widget.feature button {
-      font-size: .8em;
-      padding: 10px 14px;
-  }
-
-  /* GALLERY */
-
-  .widget.gallery ul.gallery-widget li
-  {
-      width: 50%;
-      padding-bottom: 50%;
-  }
-
-  .widget.gallery li span.inner .title, .widget.gallery li span.inner .description {
-      max-height: 200px;
-      font-size:bkscale(@font-swatch5-font-size,0.9);
-      line-height:bkscale(@font-swatch5-line-height,0.9);
-  }
-
-
-  .widget.signupform fieldset input {
-      height: 62px;
-      width: 65%;
-  }
-
-  .widget.signupform {
-    padding: 20px 20px 20px;
-  }
-
-  .widget.signupform button {
-    font-size: 14px;
-    width: 30%;
-    height: 62px;
-  }
-
-  /* TWITTER */
-
-  .widget.twitter, .widget.contactform form {
-    padding: 20px;
-  }
-
-  .widget.twitter ul li {
-    padding-bottom: 20px;
-  }
-
-  .widget.twitter .twitter-content, .widget.map {
-    padding: 20px;
-  }
-
-  .widget.twitter .twitter-profile-pic {
-      margin: 20px 20px 0px;
-  }
-
-  /* SLIDESHOW */
-
-  .widget.responsiveslideshow .slideshow-widget-controls {
-    padding: 0;
-    top: -36px;
-  }
-
-  .widget.responsiveslideshow .slideshow-widget-controls .dot {
-    height: 10px;
-    width: 10px;
-   }
-
-    /* SLIDESHOW */
-
-    .widget.responsiveslideshow .slideshow-widget-wrapper, .widget.responsiveslideshow .slideshow-image-list {
-        height: 350px;
-    }
-
-    .widget.responsiveslideshow .slideshow-widget-controls .dot {
-        height: 13px;
-        width: 13px;
-        margin: 0px 5px;
-    }
-
-}
-
 /* ===============================
    6. MENU
    =============================== */
@@ -1974,20 +1738,280 @@ hr.line.align-right {
 }
 
 .widget.responsiveslideshow .slideshow-widget .btn-play {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     font-size: 0;
     text-indent: -99999px;
     position: absolute;
     cursor: pointer;
     z-index: 12;
-    width: 11%;
+    width: 3%;
     height: 42px;
     top: 43%;
-    left: 45%;
+    left: 48%;
 }
 
 .widget.responsiveslideshow .slideshow-widget .btn-play:after {
     top:-10px;
+}
+
+/* ===============================
+   IPAD WIDTH
+   =============================== */
+
+@media only screen and (max-width: 768px) {
+
+  header.bk-header .header-bg {
+    padding: 62px 0 12px;
+  }
+
+  header.bk-header nav {
+    min-height: 36px;
+    margin-bottom:40px;
+    padding-top:20px;
+  }
+
+  .widget.companyheader {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .widget.companyheader .company-name {
+    text-align: center;
+  }
+
+  .widget.companyheader .company-name h1 {
+    font-size:bkscale(@font-swatch1-font-size, 0.4)
+  }
+
+  /* NAV */
+
+  .widget.extendednavigation {
+    width: 100%;
+    padding: 0;
+  }
+  .widget .extendednavigation {
+    display: table;
+    *display: block;
+    *float: left;
+    width: 100%;
+  }
+
+  /* NAV ICON */
+
+  .widget .extendednavigation a.pull {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin:0px auto;
+  }
+
+    .widget .extendednavigation a.pull:after {
+    content:"";
+    background: image('/images/nav-icon.png') no-repeat center;
+    background-color: @color-swatch3;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .main .widget .extendednavigation a.pull {
+    display: none;
+  }
+
+  #page-zones__template-widgets__extendednavigation-navigationheader {
+    overflow: visible;
+  }
+
+    /* NAV */
+
+    .widget .extendednavigation ul {
+        width: 100%;
+        display: none;
+        padding: 36px 0 0 0; 
+    }
+
+    .widget .extendednavigation ul li {
+      border-bottom:0;
+      padding:0;
+    }
+
+    .widget .extendednavigation li {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .widget.extendednavigation ul li.folder {
+      padding: 0;
+      background-position: right center;
+      background-repeat: no-repeat;
+    }
+
+    .widget .extendednavigation li:last-child {
+      border-bottom: 0;
+    }
+
+    .widget.extendednavigation ul li a, .widget.extendednavigation ul li.folder .text {
+        padding: 18px 12px;
+    }
+
+    .widget.extendednavigation ul li > ul {
+        display: none!important;
+    }
+
+    .widget.extendednavigation ul li:hover > ul {
+        display: block!important;
+        width: 100%;
+        padding: 0;
+    }
+
+    .widget.extendednavigation ul li:hover > ul li {
+      border-bottom: 0;
+    }
+
+    .widget.extendednavigation ul li:hover > ul li a {
+        padding: 12px 18px;
+    }
+
+    .widget.extendednavigation ul li:hover > ul li a .text {
+      padding: 6px 26px;
+    }
+
+    .widget.extendednavigation ul li:hover > ul li:first-child {
+
+    }
+
+    .widget.extendednavigation ul.align-left li {
+      width:100%;
+    }
+
+  /* OTHER */
+
+  section.intro, section.main {
+    padding: 50px 0;
+  }
+
+  section.intro {
+    display: none;
+  }
+
+  /* FEATURE */
+
+   .widget.feature .feature-bgimg {
+    height: 300px; 
+    }
+
+  .widget.feature .content {
+    height: 300px;
+  }
+
+  .widget.feature h2 {
+    line-height: 1;
+    font-size:bkscale(@font-swatch8-font-size, 0.8); 
+  }
+
+  .widget.feature h3 {
+    font-size:bkscale(@font-swatch9-font-size, 0.8); 
+  }
+
+    .widget.feature button {
+      font-size: .8em;
+      padding: 10px 14px;
+  }
+
+  /* GALLERY */
+
+  .widget.gallery ul.gallery-widget li
+  {
+      width: 50%;
+      padding-bottom: 50%;
+  }
+
+  .widget.gallery li span.inner .title, .widget.gallery li span.inner .description {
+      max-height: 200px;
+      font-size:bkscale(@font-swatch5-font-size,0.9);
+      line-height:bkscale(@font-swatch5-line-height,0.9);
+  }
+
+
+  .widget.signupform fieldset input {
+      height: 62px;
+      width: 65%;
+  }
+
+  .widget.signupform {
+    padding: 20px 20px 20px;
+  }
+
+  .widget.signupform button {
+    font-size: 14px;
+    width: 30%;
+    height: 62px;
+  }
+
+  /* TWITTER */
+
+  .widget.twitter, .widget.contactform form {
+    padding: 20px;
+  }
+
+  .widget.twitter ul li {
+    padding-bottom: 20px;
+  }
+
+  .widget.twitter .twitter-content, .widget.map {
+    padding: 20px;
+  }
+
+  .widget.twitter .twitter-profile-pic {
+      margin: 20px 20px 0px;
+  }
+
+  /* SLIDESHOW */
+
+  .widget.responsiveslideshow .slideshow-widget-controls {
+    padding: 0;
+    top: -36px;
+  }
+
+  .widget.responsiveslideshow .slideshow-widget-controls .dot {
+    height: 10px;
+    width: 10px;
+   }
+
+    /* SLIDESHOW */
+
+    .widget.responsiveslideshow .slideshow-widget-wrapper, .widget.responsiveslideshow .slideshow-image-list {
+        height: 350px;
+    }
+
+    .widget.responsiveslideshow .slideshow-widget-controls .dot {
+        height: 13px;
+        width: 13px;
+        margin: 0px 5px;
+    }
+
+    .widget.socialicons, .widget.profile .bk-profile-socialicons {
+      float:none;
+      margin:0px auto;
+      display:table;
+    }
+    footer.bk-footer .columns-two-right .widget.profile span {
+      float:none;
+      text-align:center!important;
+    }
+    .responsivecolumns .columns-two-left, .columns-two-50-50 .columns-two-left {
+      margin-bottom:10px;
+    }
+
 }
 
 
