@@ -8,7 +8,7 @@
             {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
         </div>
     </div>
-    <nav class="clearfix">
+    <nav class="navbar clearfix">
        {{widget('extendednavigation', 'navigationheader', {})|raw}}
     </nav>
 </header>
@@ -18,7 +18,18 @@
 </div>
 
 <div class="main wrapper clearfix">
-    {{zone('main')|raw}}
+    <div class="responsivecolumns columns-two-50-50">
+        <div class="column columns-two-left">
+            <div class="box">
+            </div>
+        </div>
+        <div class="column columns-two-right">
+            <a class="twitter-timeline" href="https://twitter.com/Vinny_Tran" data-widget-id="489461595295064064">Tweets by @Vinny_Tran</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+        </div>
+    </div>
 </div>  
 
 <footer class="bk-footer">
