@@ -5,7 +5,9 @@
 	"templateType":"standard",
     "pageTypes": [
         "home",
-        "contact"
+        "contact",
+        "about",
+        "gallery"
     ],
     "tags": {
     "en": ["minimal", "clean", "floral", "modern", "creative", "typography", "simple", "contemporary", "flexible", "florist", "studio", "portfolio", "designer", "sans-serif"],

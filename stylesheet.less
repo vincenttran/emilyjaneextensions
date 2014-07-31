@@ -58,7 +58,7 @@ title {
   height: 100%;
   padding: 40px;
   background-color: rgba(255, 255, 255, 1);
-  margin-top: 102px;
+  margin-top: 60px;
 }
 
 .box-accessories {
@@ -84,7 +84,7 @@ title {
 
 .twitter-timeline.twitter-timeline-rendered {
   height:500px;
-  margin-top:100px;
+  margin-top:60px;
 }
 
 .timeline {
@@ -107,8 +107,8 @@ title {
   max-height: 500px;
 }
 
-.bk-pt-accessories .widget.image span img {
-    width: 100%!important;
+.contactimage, .accessoriespage, .aboutimage {
+  width:100%;
 }
 
 /* DEFAULT PAGE TYPE */
@@ -420,24 +420,12 @@ footer.bk-footer h4 {
 /* FEATURE TITLE */
 
 .widget.feature h2 {
-  font-family:@font-swatch8-font-family;
-  font-size:@font-swatch8-font-size;
-  font-weight: @font-swatch8-font-weight;
-  line-height:@font-swatch8-line-height;
-  color: @font-swatch8-color;
-  letter-spacing: @font-swatch8-letter-spacing;
   text-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
 
 /* FEATURE STRAPLINE */
 
 .widget.feature h3 {
-  font-family:@font-swatch9-font-family;
-  font-size: @font-swatch9-font-size;
-  font-weight: @font-swatch9-font-weight;
-  line-height:@font-swatch9-line-height;
-  color: @font-swatch9-color;
-  letter-spacing: @font-swatch9-letter-spacing;
   padding-bottom: 0;
 }
 
@@ -462,83 +450,6 @@ footer.bk-footer h4 {
 {
   box-shadow: 0 0 0 2px rgba(110,110,110,0.5);
   cursor: pointer;
-}
-
-.widget.feature button.btn.justifyleft
-{
-    text-align: left;
-}
-
-.widget.feature button.btn.justifycenter
-{
-    text-align: center;
-}
-
-.widget.feature button.btn.justifyright
-{
-    text-align: right;
-}
-
-.widget.feature button.btn.justifyfull
-{
-    text-align: justify;
-}
-
-.widget.feature button.btn.italic {
-    font-style: italic;
-}
-
-.widget.feature button.btn.bold {
-    font-weight: bold;
-}
-
-.widget.feature button span {
-    vertical-align: center;
-}
-
-.widget.feature button i {
-    margin-right: 5px;
-}
-
-
-/* ===============================
-   FEATURE LAYOUTS
-   =============================== */
-
-/* LEFT ALIGN */
-
-.widget.feature.align-left .content {
-  width: 100%;
-  text-align: left;
-}
-
-/* CENTER ALIGN */
-
-.widget.feature.align-center .content {
-  width: 100%;
-  text-align: center;
-}
-
-/* RIGHT ALIGN */
-
-.widget.feature.align-right .content {
-  width: 100%;
-  text-align: right;
-}
-
-/* BUTTON BOTTOM RIGHT */
-
-.widget.feature.btn-bottom-right .content{
-  width: 100%;
-  text-align: left;
-}
-
-.widget.feature.btn-bottom-right h3 {
-  vertical-align: middle;
-}
-
-.widget.feature.btn-bottom-right button {
-  vertical-align: middle;
 }
 
 
@@ -579,37 +490,6 @@ footer.bk-footer h4 {
 }
 
 
-/* CLICK TO CALL - JUSTIFY */
-
-.widget.clicktocall a.justifyleft
-{
-    text-align: left;
-}
-
-.widget.clicktocall a.justifycenter
-{
-    text-align: center;
-}
-
-.widget.clicktocall a.justifyright
-{
-    text-align: right;
-}
-
-.widget.clicktocall a.justifyfull
-{
-    text-align: justify;
-}
-
-.widget.clicktocall a.italic {
-    font-style: italic;
-}
-
-.widget.clicktocall a.bold {
-    font-weight: bold;
-}
-
-
 /* ===============================
    BUTTON CSS
    =============================== */
@@ -636,45 +516,6 @@ footer.bk-footer h4 {
 {
   background-color: @font-swatch7-background-color-hover;
   cursor: pointer;
-}
-
-
-/* JUSTIFY */
-
-.widget.button button.btn.justifyleft
-{
-    text-align: left;
-}
-
-.widget.button button.btn.justifycenter
-{
-    text-align: center;
-}
-
-.widget.button button.btn.justifyright
-{
-    text-align: right;
-}
-
-.widget.button button.btn.justifyfull
-{
-    text-align: justify;
-}
-
-.widget.button button.btn.italic {
-    font-style: italic;
-}
-
-.widget.button button.btn.bold {
-    font-weight: bold;
-}
-
-.widget.button span {
-    vertical-align: center;
-}
-
-.widget.button i {
-    margin-right: 5px;
 }
 
 /* ===============================
@@ -1098,34 +939,6 @@ hr.line.align-right {
   cursor: pointer;
 }
 
-.widget.contactform fieldset button.btn.justifyleft
-{
-    text-align: left;
-}
-
-.widget.contactform fieldset button.btn.justifycenter
-{
-    text-align: center;
-}
-
-.widget.contactform fieldset button.btn.justifyright
-{
-    text-align: right;
-}
-
-.widget.contactform fieldset button.btn.justifyfull
-{
-    text-align: justify;
-}
-
-.widget.contactform fieldset button.btn.italic {
-    font-style: italic;
-}
-
-.widget.contactform fieldset button.btn.bold {
-    font-weight: bold;
-}
-
 
 /* ===============================
    TWEET THIS WIDGET
@@ -1373,297 +1186,6 @@ hr.line.align-right {
   background-color: darken(@color-swatch3,10%);
   cursor: pointer;
 }
-
-/* ===============================
-   6. MENU
-   =============================== */
-
-.container {
-    border:1px solid black;
-    margin-top:40px;
-    padding-bottom:40px;
-}
-
-.widget.menu .menu-subsection {
-    border:0px;
-}
-
-.widget.menu {
-    margin:0 auto;
-    @media only screen and (max-width: 1084px) {
-         width: 90%;
-    }
-    @media @tablet {
-        background-image: none;
-        width:100%;
-    }
-
-    .main {
-        width: 90%;
-        padding-top:30px;
-        margin: 0 auto;
-            @media only screen and (max-width: 1084px) {
-                width: 93%;
-            }
-            @media @tablet {
-                background-color: @color-swatch1;
-                width:90%;
-                padding: 10px 0;
-            }
-            @media @mobile {
-                margin-bottom: 10px;
-                padding:0;
-            }
-
-            ol, li {    /* removes list-style */
-                list-style: none;
-                padding: 0;
-                margin: 0;
-            } 
-
-
-            /* MENU-HEADER AND SUB-SECTION HEADER */
-
-            .menu-header, .menu-subsection-header {
-                padding: 0 0 1.2em;
-                    @media @tablet {
-                        padding: 1.25em 0 0.75em;
-                    }
-                    h1, h2, {    /* menu-name menu-section-name */
-                        text-align: center;
-                        overflow: hidden; 
-                    &:before, &:after {
-                        content: "";
-                        @media only screen and (max-width: 480px) {
-                            content: none;
-                            display: block;
-                            height: auto;
-                            width: auto;
-                            margin-bottom: 0;
-                        }
-                    }
-                    &:before {
-                        @media only screen and (max-width: 480px) {
-                            right: 0;
-                            margin-left: 0;
-                         }
-                    }
-                    &:after {
-                        @media only screen and (max-width: 480px) {
-                            right: 0;
-                            margin-left: 0;
-                         }
-                    }
-                @media only screen and (max-width: 480px) {
-                     padding: 1em 0 0.5em;
-                }
-            }
-                    p {    /* menu-description  menu-section-description  menu-availability */
-                        text-align: center;       
-                    }  
-            }   /* end MENU-HEADER AND SUB-SECTION HEADER */
-
-
-            /* ITEMS */
-
-            .menu-items { /* ol */
-
-                li {    /* menu-item */
-                    display:block;
-                    position: relative;
-                    &.menu-item-promoted { /* menu-item-promoted */
-                        padding: 1.2em;
-                        margin: 11px 1px 20px;
-                        border: 5px solid @color-swatch3;
-                        .inner-item {
-                            border: 0;
-                            padding: 0;
-                            margin: 0;
-                        }
-                        h3 {
-                            width: auto;
-                            margin-top: 0 !important;
-                            margin-right: 1em !important;
-                        }
-                    }   /* end menu-item-promoted */
-
-                    .inner-item {
-                        border-bottom: 1px solid @color-swatch3;
-                        padding-bottom: 30px;
-                        margin-bottom: 30px;
-                        h3 {    /* menu-item-name */  
-                            padding: 0;
-                            font-family: @font-swatch3-font-family;
-                            color: @font-swatch3-color;
-                        }
-                        /* Menu image background */
-
-                        .menu-item-image-wrap {
-                           background-size: cover;
-                           background-position: center;
-                           -webkit-background-size: cover;
-                           -moz-background-size: cover;
-                           -o-background-size: cover;
-                           clear:both;
-                           background-repeat: no-repeat;
-                           height: 200px;
-                           background-position: center;
-                           -webkit-border-radius: 5px;
-                           -moz-border-radius: 5px;
-                           border-radius: 5px;
-                           img {
-                               display: none;
-                           }
-                        }
-                        .menu-item-price p {   /* standard-price */
-                            font-family:@font-swatch3-font-family;
-                            font-size:@font-swatch3-font-size;
-                            font-weight: @font-swatch3-font-weight;
-                            line-height:@font-swatch3-line-height;
-                            color: @font-swatch3-color;
-                            letter-spacing: @font-swatch3-letter-spacing;
-                            padding: 0px;
-                            margin: 0;
-                            display: block;
-                        }
-                        p {    /* item-description */
-                            font-family:@font-swatch5-font-family;
-                            font-size:@font-swatch5-font-size;
-                            font-weight: @font-swatch5-font-weight;
-                            line-height:@font-swatch5-line-height;
-                            color:@font-swatch5-color;
-                            letter-spacing: @font-swatch5-letter-spacing;
-                            float: left;
-                            padding: 0;
-                        }
-                        h4 {  /* nutritional-title */
-                            font-family:@font-swatch4-font-family;
-                            font-size:@font-swatch4-font-size;
-                            font-weight: @font-swatch4-font-weight;
-                            line-height:@font-swatch4-line-height;
-                            color: @font-swatch4-color;
-                            letter-spacing: @font-swatch4-letter-spacing;
-                            float: left;
-                            width: 100%;
-                            margin: 0;
-                            padding: 0;
-                        }
-                        .menu-item-nutritional-prop { 
-                            font-size:@font-swatch5-font-size;
-                            font-weight: @font-swatch5-font-weight;
-                            line-height:@font-swatch5-line-height;
-                            color: @font-swatch5-color;
-                            float: left;
-                            width: 100%;
-                            margin: 0;
-                            padding: 0;
-                        }
-                        .menu-section-item-dietary-props {
-                                margin-top: 0.5em;
-                                padding: 0;
-                                clear: both;
-                                display: block;
-                                .dietary-icon {
-                                    background-color: @color-swatch7;
-                                    width: auto;
-                                    height: auto;
-                                    border: 0;
-                                    background-repeat: no-repeat;
-                                    background-size: 19px;
-                                    background-position: center;
-                                    font-family:@font-swatch5-font-family;
-                                    font-size:@font-swatch5-font-size;
-                                    z-index: 9999999;
-                                    color: @color-swatch1;
-                                    margin-right: 5px;
-                                    padding:5px;
-                                }                                
-                                .not-spicy-icon {
-                                    display:none;
-                                }
-
-                            } /* end menu-section-item-dietary-props */ 
-
-                        .menu-item-description, .menu-section-item-description {
-                            margin-bottom: 0.5em;
-                            width: 100%;
-                        }
-
-                    }   /* end inner-item */
-
-                }  /* end li .menu-item */
-
-            }   /* end ol .menu-items */  
-
-            .menu-subsection .menu-subsection-promoted { /* PROMOTED SUB-SECTION */  
-                border: 6px solid @color-swatch3;
-                padding: 2em 2em 0;
-                margin-bottom: 2em;
-                position: relative;
-                &:before {
-                   content: " ";
-                   position: absolute;
-                   top: 3px;
-                   left: 3px;
-                   right: 3px;
-                   bottom: 3px;
-               }
-                @media @mobile {
-                    padding: 0 2em 0;
-                }
-                .menu-subsection-header {
-                    border-bottom: 1px solid @color-swatch3;
-                    margin-bottom: 20px;
-                }
-            } /* end PROMOTED SUB-SECTION */
-
-            .menu-info {
-                display: block;
-                text-align: center;
-                margin: 10px 0;
-                padding: 20px;
-                width: 100%;
-                @media @tablet { 
-                    margin: 0;
-                    padding: 0px;
-                }
-                p {    /* menu-note */
-                    float: left;
-                    width: 100%;
-                    color: @color-swatch4;
-                    margin-bottom: 10px;
-                }
-                dl {    /* menu-dietary-key */
-                    display: inline-block;
-                    margin: 5px 0;
-                    text-align: block;
-                    dt, dd {
-                        display: inline-block;
-                    }
-                    dt {    /* dietary-icon */
-                        vertical-align: top; 
-                        width: 20px;
-                        height: 20px;
-                        background-size: 20px;
-                        background-color: @color-swatch3;
-                        border: 2px solid @color-swatch6;
-                        background-repeat: no-repeat;
-                        background-position: center;
-                    }
-                    dd {    /* text for icon */
-                        font-family:@font-swatch5-font-family;
-                        font-size:@font-swatch5-font-size;
-                        font-weight: @font-swatch5-font-weight;
-                        line-height:@font-swatch5-line-height;
-                        color: @font-swatch5-color; 
-                        letter-spacing: @font-swatch5-letter-spacing;
-                        margin: 0 5px -7px;
-                    }   
-                }/* end dl */
-            }   /* end menu-info */
-    }/* end main */
-
-} /* end .widget.menu */
 
 /* ===============================
   BLOG
