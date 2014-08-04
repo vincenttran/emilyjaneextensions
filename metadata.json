@@ -73,7 +73,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "26px",
             "font-weight": "400",
             "line-height": "36px",
@@ -81,7 +81,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "22px",
             "font-weight": "300",
             "line-height": "28px",
@@ -89,7 +89,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "20px",
             "font-weight": "300",
             "line-height": "26px",
@@ -97,16 +97,16 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
-            "font-size": "14px",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
+            "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "28px",
             "color": "@color-swatch5",
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
-            "font-size": "15px",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
+            "font-size": "16px",
             "font-weight": "400",
             "line-height": "28px",
             "color": "@color-swatch6",
@@ -116,7 +116,7 @@
             "background-color-hover": "@color-swatch2"
         },
         "font7": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "26px",
@@ -126,7 +126,7 @@
             "background-color-hover": "darken(@color-swatch3,5%)"
         },
         "font8": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "50px",
             "font-weight": "500",
             "line-height": "60px",
@@ -134,7 +134,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "24px",
             "font-weight": "500",
             "line-height": "36px",
@@ -142,7 +142,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"GillSans\", Helvetica, Verdana, sans-serif",
             "font-size": "34px",
             "font-weight": "400",
             "line-height": "38px",
