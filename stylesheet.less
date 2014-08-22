@@ -386,9 +386,9 @@ footer.bk-footer h4 {
   color: @color-swatch5;
 }
 
-.widget.extendednavigation ul li.folder:hover ul li a span {
-  &:first-child {
-    padding-left:30px!important;
+.widget.extendednavigation ul li.folder:hover ul li {
+  &:first-child a span {
+    padding: 25px 0px 15px 5px!important;
   }
 }
 
@@ -517,7 +517,7 @@ footer.bk-footer h4 {
 
 .widget.button button
 {
-  padding: 20px 30px;
+  padding: 10px 15px;
   margin: 0;
   border: 0;
   font-family: @font-swatch7-font-family;
@@ -951,8 +951,8 @@ hr.line.align-right {
     letter-spacing: @font-swatch7-letter-spacing;
 }
   
-.widget.contactform fieldset button.btn:hover {
-  background-color: lighten(@color-swatch7,15%);
+.widget.contactform fieldset button.btn:hover, .widget.button button:hover {
+  background-color: lighten(@color-swatch3,15%);
   cursor: pointer;
 }
 
