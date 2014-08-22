@@ -386,6 +386,12 @@ footer.bk-footer h4 {
   color: @color-swatch5;
 }
 
+.widget.extendednavigation ul li.folder:hover ul li a span {
+  &:first-child {
+    padding-left:30px!important;
+  }
+}
+
 .widget.extendednavigation ul li:hover > ul > li > a:hover {
   color: @color-swatch3;
 }
@@ -1302,14 +1308,14 @@ hr.line.align-right {
             &:after {
                 content: "\2190";
                 color: #fff;
-                top: 5px;
+                top: 7px;
             }
         }
         .btn-next {
             &:after {
                 content: "\2192";
                 color: #fff;
-                top: 5px;
+                top: 7px;
             }
         }
         /* Play Button */
