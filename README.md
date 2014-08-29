@@ -1,6 +1,3 @@
-hatch
-=====
+Emily Jane Extentions
 
-BaseKit's Hatch Template
-
-+ Switched to develop branch - 07/06/13
+Copyright 2014 Emily Jane, Vincent Tran & Basekit
