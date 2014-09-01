@@ -65,7 +65,7 @@
     "fontSwatch": {
        "title": "Open Sans",
         "font1": {
-            "font-family": "\"Quickpen\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"Quickpen\", Georgia, serif",
             "font-size": "30px",
             "font-weight": "700",
             "line-height": "36px",
@@ -116,7 +116,7 @@
             "background-color-hover": "@color-swatch2"
         },
         "font7": {
-            "font-family": "\"quickpen\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"Quickpen\", Georgia, serif",
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "26px",
